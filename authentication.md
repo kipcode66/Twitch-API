@@ -92,7 +92,7 @@ The Implicit Grant Flow doesn't require a server that must make requests to the 
       
   2. If the user authorizes your application, they will be redirected to the following URL:
   
-        https://[your registered redirect URI]/#access_token=[an access token]&scope=[authorized scopes]
+        https://[your registered redirect URI]/?access_token=[an access token]&scope=[authorized scopes]
         
       > Note that the access token is in the URL fragment, not the
       > query string, so it won't show up in HTTP requests to your server.
